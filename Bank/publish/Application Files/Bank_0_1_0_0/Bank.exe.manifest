@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Bank.exe" version="0.1.0.0" publicKeyToken="977fb5f22913a49c" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Bank" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Bank.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bank.exe" size="17384">
+      <assemblyIdentity name="Bank" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>42fLS8c3rB9SqIbCssDP9fiIsuQguXBSXJgTjPeIPvI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Csv.dll" size="15360">
+      <assemblyIdentity name="Csv" version="1.0.11.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>we39ttkcWn308FRKZbuOSlgjg/sX6MaUORUlSpgO2Hs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="itextsharp.dll" size="4059136">
+      <assemblyIdentity name="itextsharp" version="5.5.10.0" publicKeyToken="8354AE6D2174DDCA" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>sMuANLVD/qDi+h6UlWBHrb4CHdSrUiq1s83Ekk3rO14=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Bank.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-9V4VUCL\Miguel" issuerKeyHash="6078a102766952990e898b50b71830704e2d107c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>V9RaWfIat+wf/xwALqmRFzyvKz/HpIaZYad+Dj0NBbM=</DigestValue></Reference></SignedInfo><SignatureValue>KcaM+32ojgupeERqxXvifhB7HcKjDuzwqaxwr55JogGtKK2QDmcq/pK9KKoERxV+uK0CBQEHPEcvF+f7DvsdZVqs5wBMGU2FWRK/dj0bLjmg3gXL1vLyxr439zwBwTImGgfwYY5n9znPlKNSc0l2XYp1szl23C6PKN5oqHFsE/c=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>kOvQnVRcbTat+57kBVMuAEixqO0YCzONEZQ4MVGaQMTAvOZNzFPVH1TDgcBiSV+0ey6lKfTgCcQrhXGNGmanc0v4Vkt2PYsQ7dggvf5rjCg06/6aneQ0dtfaOYV690BhhMGemy/JatOMFMsamW1ug5FrwsW0P1bhA3IPBT8XLD0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b3050d3d0e7ea7619986a4c73f2baf3c1791a92e001cff1fecb71af2595ad457" Description="" Url=""><as:assemblyIdentity name="Bank.exe" version="0.1.0.0" publicKeyToken="977fb5f22913a49c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-9V4VUCL\Miguel</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>hK9zGziU/xkfPQhjkYo0RLNSaD8DyF+lQaBmTLenImI=</DigestValue></Reference></SignedInfo><SignatureValue>KwsQwNECPf6UxGP4pgq8hVWDWnhAesn4L81Pc4LthrsnP5DJ+fgGRG/i1fhvp+0kuO1UGO7D9thJGVNRSX01vAbXufjEoPMTzorqZdBgDk8W5i0b30UCZwlxrx+XtuyRcFSMnVi2s5Eibqq6mexs6BttWbHgjnFI4BkJw36X2vU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>kOvQnVRcbTat+57kBVMuAEixqO0YCzONEZQ4MVGaQMTAvOZNzFPVH1TDgcBiSV+0ey6lKfTgCcQrhXGNGmanc0v4Vkt2PYsQ7dggvf5rjCg06/6aneQ0dtfaOYV690BhhMGemy/JatOMFMsamW1ug5FrwsW0P1bhA3IPBT8XLD0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQXXv54Sv74ZZAKtzyaz3wbzANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwARABFAFMASwBUAE8AUAAtADkAVgA0AFYAVQBDAEwAXABNAGkAZwB1AGUAbDAeFw0xNzAxMTExNTI5NDVaFw0xODAxMTEyMTI5NDVaMDcxNTAzBgNVBAMeLABEAEUAUwBLAFQATwBQAC0AOQBWADQAVgBVAEMATABcAE0AaQBnAHUAZQBsMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCQ69CdVFxtNq37nuQFUy4ASLGo7RgLM40RlDgxUZpAxMC85k3MU9UfVMOBwGJJX7R7LqUp9OAJxCuFcY0aZqdzS/hWS3Y9ixDt2CC9/muMKDTr/pqd5DR219o5hXr3QGGEwZ6bL8lq04wUyxqZbW6DkWvCxbQ/VuEDcg8FPxcsPQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAIgpmwL1KCdoHlYbAEJaDOu+lYGyxssXT2B1RFE7bmh5ow/ZRkUVaCB3l2336OONl4w+ocyPwBAdbTi4QA+wqCsabrVCdMWAatAPuSd6m6RLvBgZohcI1tB4mGEqz7ddBE4DpjdxNKGX/AUL0WUeAfabFF3h2RAlTNK3J6tP7dH/</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
