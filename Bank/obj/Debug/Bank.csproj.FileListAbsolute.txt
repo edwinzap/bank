@@ -8,7 +8,3 @@ D:\Documents\Visual Studio 2015\Projects\Bank\Bank\obj\Debug\Bank.exe
 D:\Documents\Visual Studio 2015\Projects\Bank\Bank\obj\Debug\Bank.pdb
 D:\Documents\Visual Studio 2015\Projects\Bank\Bank\bin\Debug\itextsharp.dll
 D:\Documents\Visual Studio 2015\Projects\Bank\Bank\bin\Debug\itextsharp.xml
-D:\Documents\Visual Studio 2015\Projects\Bank\Bank\bin\Debug\Bank.exe.manifest
-D:\Documents\Visual Studio 2015\Projects\Bank\Bank\bin\Debug\Bank.application
-D:\Documents\Visual Studio 2015\Projects\Bank\Bank\obj\Debug\Bank.exe.manifest
-D:\Documents\Visual Studio 2015\Projects\Bank\Bank\obj\Debug\Bank.application

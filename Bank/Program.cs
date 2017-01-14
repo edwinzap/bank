@@ -30,6 +30,7 @@ namespace Bank
             {
                 Data.Insert(item);
             }
+            Console.Write("Press ENTER to exit");
             Console.ReadLine();
 
         }

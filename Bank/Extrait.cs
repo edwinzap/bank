@@ -54,8 +54,7 @@ namespace Bank
             {
                 Console.WriteLine("Numéro de mandat: " + Mandat);
             }
-            
-            Console.ReadLine();
+            Console.WriteLine();
         }
 
         public void PrintDetails()
@@ -64,7 +63,7 @@ namespace Bank
             {
                 Console.WriteLine(line);
             }
-            Console.ReadLine();
+            Console.WriteLine();
         }
     }
 }

@@ -53,7 +53,8 @@ namespace Bank
                         }
                     }
                     tw.Close();
-                    Console.WriteLine("Exportation terminée !");
+                    Console.WriteLine("Exportation du CSV terminée !");
+                    Console.WriteLine();
                 }
             }
             catch (Exception ex)
